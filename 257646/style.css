@@ -180,7 +180,6 @@ nav a:hover {
 .btn-purple { background-color: #b641bc; }
 .btn-blue { background-color: #4e41bd; }
 
-/* --- FOOTER --- */
 footer {
     background-color: #4BB5C1;
     margin-top: 50px;
@@ -222,7 +221,6 @@ footer {
     margin-left: 5px;
 }
 
-/* Bottom Dark Strip */
 .footer-bottom {
     background-color: #37aeb9; 
     border-top: 4px solid #000; 
@@ -255,3 +253,4 @@ footer {
     }
 
 }
+
