@@ -1,4 +1,3 @@
-/* --- GENERAL RESET --- */
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +18,6 @@ ul {
     list-style: none;
 }
 
-/* --- HEADER --- */
 .top-bar {
     background-color: #4BB5C1;
     padding: 15px 40px;
@@ -74,7 +72,6 @@ ul {
     border-radius: 3px;
 }
 
-/* --- NAVIGATION --- */
 nav {
     background-color: #000;
     padding: 15px 0;
@@ -99,7 +96,6 @@ nav a:hover {
     color: #4BB5C1;
 }
 
-/* --- HERO SECTION --- */
 .hero-img {
     width: 100%;
     height: auto;
@@ -121,7 +117,6 @@ nav a:hover {
     line-height: 1.5;
 }
 
-/* --- COSMOLOGY SECTION --- */
 .cosmology-section {
     padding: 20px 10%;
 }
@@ -157,7 +152,6 @@ nav a:hover {
     line-height: 1.4;
 }
 
-/* --- OVAL BUTTONS GRID --- */
 .navigation-buttons {
     padding: 50px 20px;
 }
@@ -230,8 +224,8 @@ footer {
 
 /* Bottom Dark Strip */
 .footer-bottom {
-    background-color: #37aeb9; /* Darker shade */
-    border-top: 4px solid #000; /* Thick black line */
+    background-color: #37aeb9; 
+    border-top: 4px solid #000; 
     padding: 15px 10%;
     display: flex;
     justify-content: space-between;
@@ -240,7 +234,6 @@ footer {
     font-weight: bold;
 }
 
-/* --- RESPONSIVE (For Mobile) --- */
 @media (max-width: 768px) {
     .top-bar, .cosmology-container, .buttons-grid, .footer-main, .footer-bottom {
         flex-direction: column;
@@ -260,4 +253,5 @@ footer {
     .cosmology-text h2 {
         margin-top: 20px;
     }
+
 }
